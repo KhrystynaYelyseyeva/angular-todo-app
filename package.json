@@ -1,5 +1,5 @@
 {
-  "name": "todo-angular-app",
+  "name": "angular-todo-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:todo-angular-app": "node dist/todo-angular-app/server/server.mjs"
+    "serve:ssr:angular-todo-app": "node dist/angular-todo-app/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +22,7 @@
     "@angular/router": "^18.2.0",
     "@angular/ssr": "^18.2.3",
     "express": "^4.18.2",
+    "http-proxy-agent": "^7.0.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
