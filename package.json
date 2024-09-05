@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-todo-app": "node dist/angular-todo-app/server/server.mjs"
+    "deploy": "ng deploy --base-href=/angular-todo-app/ --repo=https://github.com/KhrystynaYelyseyeva/angular-todo-app.git"
   },
   "private": true,
   "dependencies": {

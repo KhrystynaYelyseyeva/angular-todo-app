@@ -88,10 +88,7 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "/angular-todo-app/"
-          }
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
